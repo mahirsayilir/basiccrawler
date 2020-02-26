@@ -1,6 +1,6 @@
 const request = require('request');
 const cheerio = require('cheerio');
-const PATH = "https://www.instagram.com/explore/tags/cekilis/";
+const PATH = "https://www.instagram.com/explore/tags/fenerbahce/";
 let counter = 0;
 
 request(PATH,(error , response , html) => {
